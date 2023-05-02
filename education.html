@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Information</title>
+</head>
+<body>
+
+	<h1>Student Information</h1>
+
+	<form>
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+
+		<br><br>
+
+		<label for="race">Race:</label>
+		<input type="text" id="race" name="race">
+
+		<br><br>
+
+		<label for="ethnicity">Ethnicity:</label>
+		<input type="text" id="ethnicity" name="ethnicity">
+
+		<br><br>
+
+		<label for="parent-education">Parental Level of Education:</label>
+		<select id="parent-education" name="parent-education">
+			<option value="less-than-high-school">Less than High School</option>
+			<option value="high-school">High School</option>
+			<option value="some-college">Some College</option>
+			<option value="bachelors">Bachelor's Degree</option>
+			<option value="masters">Master's Degree</option>
+			<option value="doctorate">Doctorate Degree</option>
+			<option value="other">Other</option>
+		</select>
+
+		<br><br>
+
+		<label for="prep-course">Preparatory Course:</label>
+		<input type="radio" id="yes-prep" name="prep-course" value="yes">
+		<label for="yes-prep">Yes</label>
+		<input type="radio" id="no-prep" name="prep-course" value="no">
+		<label for="no-prep">No</label>
+
+		<br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
